@@ -1,0 +1,92 @@
+header {
+    height: fit-content;
+    background: #000;
+
+    .header-container {
+        margin: 0 auto;
+        width: 89%;
+    }
+
+    .header-logo {
+ 
+        a {
+            color: #fff;
+        
+            #header-logo-text {
+                padding: 35px 0px;
+                text-transform: uppercase;
+                font-weight: 100;
+                transition: .4s;
+            }
+
+            #header-logo-text:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+
+    .header-nav {
+        background: #191919;
+
+        nav {
+            padding: 7px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .page-links {
+                display: flex;
+                align-items: center;
+
+                li {
+                    padding-right: 25px;
+                    
+                    a {
+                        color: #c9c9c9;
+                        font-size: 14px;
+                        transition: .4s;
+                    }
+
+                    a:hover {
+                        color: #fff;
+                    }
+                }
+
+                li:last-child {
+                    padding-right: 0px;
+                }
+            }
+
+            .social-links {
+                display: flex;
+                align-items: center;
+
+                a {
+                    margin-right: 7px;
+                    width: 27px;
+                    transition: 0.3s;
+
+                    .social-link-direct {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+
+                a:last-child {
+                    width: 20px;
+                }
+
+                a:hover {
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+}
