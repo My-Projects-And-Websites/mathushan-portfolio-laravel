@@ -1,0 +1,44 @@
+section.intro-text {
+  margin: 75px auto;
+  width: 65%;
+  text-align: center;
+}
+
+section.intro-text .intro-text-heading {
+  margin: 0 auto;
+  width: 60%;
+}
+
+section.intro-text .intro-text-heading h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+
+section.intro-text .intro-text-par {
+  margin: 40px auto;
+}
+
+section.intro-text .intro-text-par p {
+  color: #fff;
+  line-height: 2;
+  text-align: justify;
+  text-align-last: center;
+}
+
+section.intro-text .intro-text-cta {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+section.intro-text .intro-text-cta a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid white;
+  padding: 15px 20px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -11,12 +11,14 @@ header {
  
         a {
             color: #fff;
+            display: inline-block;
         
             #header-logo-text {
                 padding: 35px 0px;
                 text-transform: uppercase;
                 font-weight: 100;
                 transition: .4s;
+                width: fit-content;
             }
 
             #header-logo-text:hover {
