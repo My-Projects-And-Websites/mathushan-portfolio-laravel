@@ -31,7 +31,7 @@ header {
         background: #191919;
 
         nav {
-            padding: 7px 0px;
+            padding: 12px 0px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -64,7 +64,7 @@ header {
                 align-items: center;
 
                 a {
-                    margin-right: 7px;
+                    margin-right: 5px;
                     width: 27px;
                     transition: 0.3s;
 
@@ -74,9 +74,9 @@ header {
                         justify-content: center;
                         align-items: center;
 
-                        img {
-                            width: 100%;
-                            object-fit: cover;
+                        ion-icon {
+                            color: #fff;
+                            font-size: 18px;
                         }
                     }
                 }

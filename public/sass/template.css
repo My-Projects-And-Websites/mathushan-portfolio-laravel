@@ -35,7 +35,7 @@ header .header-nav {
 }
 
 header .header-nav nav {
-  padding: 7px 0px;
+  padding: 12px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +85,7 @@ header .header-nav nav .social-links {
 }
 
 header .header-nav nav .social-links a {
-  margin-right: 7px;
+  margin-right: 5px;
   width: 27px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -104,10 +104,9 @@ header .header-nav nav .social-links a .social-link-direct {
           align-items: center;
 }
 
-header .header-nav nav .social-links a .social-link-direct img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+header .header-nav nav .social-links a .social-link-direct ion-icon {
+  color: #fff;
+  font-size: 18px;
 }
 
 header .header-nav nav .social-links a:last-child {

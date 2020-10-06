@@ -18,17 +18,17 @@
                 <div class="social-links">
                     <a href="{{ URL::to('/twitter') }}"">
                         <div class="social-link-direct">
-                            <img src="{{ asset('images/template/twitter2.png') }}" alt="link-twitter">
+                            <ion-icon name="logo-twitter"></ion-icon>
                         </div>
                     </a>
                     <a href="{{ URL::to('/linkedin') }}">
                         <div class="social-link-direct">
-                            <img src="{{ asset('images/template/linkedin2.png') }}" alt="link-linkedin">
+                            <ion-icon name="logo-linkedin"></ion-icon>
                         </div>
                     </a>
                     <a href="{{ URL::to('/instagram') }}">
                         <div class="social-link-direct">
-                            <img src="{{ asset('images/template/instagram2.png') }}" alt="link-instagram">
+                            <ion-icon name="logo-instagram"></ion-icon>
                         </div>
                     </a>
                 </div>

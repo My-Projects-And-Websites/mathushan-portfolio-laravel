@@ -36,6 +36,99 @@ section.intro-text {
             color: #fff;
             border: 1px solid white;
             padding: 15px 20px;
+            transition: .4s;
+            text-transform: uppercase;
+        }
+
+        a:hover {
+           padding: 15px 35px;
+           background: #fff;
+           color: #000; 
+        }
+    }
+}
+
+section.gallery {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    margin: 100px auto;
+
+    .gallery-img {
+        height: 200vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 15px;
+        grid-template-areas:
+            "img1 img3 img9 img10"
+            "img2 img3 img7 img10"
+            "img8 img4 img11 img11"
+            "img8 img12 img11 img11"
+            ". img6 img5 .";
+
+        a {
+            text-decoration: none;
+            transition: .4s;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        a:hover {
+            opacity: 0.5;
+        }
+
+        .img1 {
+            grid-area: img1;
+        }
+
+        .img2 {
+            grid-area: img2;
+        }
+
+        .img3 {
+            grid-area: img3;
+        }
+
+        .img4 {
+            grid-area: img4;
+        }
+
+        .img5 {
+            grid-area: img5;
+        }
+
+        .img6 {
+            grid-area: img6;
+        }
+
+        .img7 {
+            grid-area: img7;
+        }
+
+        .img8 {
+            grid-area: img8;
+        }
+
+        .img9 {
+            grid-area: img9;
+        }
+
+        .img10 {
+            grid-area: img10;
+        }
+
+        .img11 {
+            grid-area: img11;
+        }
+
+        .img12 {
+            grid-area: img12;
         }
     }
 }
