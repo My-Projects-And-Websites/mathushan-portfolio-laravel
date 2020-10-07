@@ -1,3 +1,5 @@
+$greyColour: global #191919;
+
 header {
     height: fit-content;
     background: #000;
@@ -28,7 +30,7 @@ header {
     }
 
     .header-nav {
-        background: #191919;
+        background: $greyColour;
 
         nav {
             padding: 12px 0px;

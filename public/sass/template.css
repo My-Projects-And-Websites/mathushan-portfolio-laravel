@@ -31,7 +31,7 @@ header .header-logo a #header-logo-text:hover {
 }
 
 header .header-nav {
-  background: #191919;
+  background: global #191919;
 }
 
 header .header-nav nav {

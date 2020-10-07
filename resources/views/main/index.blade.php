@@ -24,39 +24,12 @@
     </section>
     <section class="gallery">
         <div class="gallery-img">
-            <a href="{{ asset('images/main/index/img1.jpg') }}" class="img1">
-                <img src="{{ asset('images/main/index/img1.jpg') }}" alt="">
+            @foreach($images as $image)
+            <a href="{{ $image->image }}" class="{{ $image->classNo }}">
+                <img src="{{ $image->image }}" alt="{{ $image->title }}">
+                <span>{{ $image->title }}</span>
             </a>
-            <a href="{{ asset('images/main/index/img2.jpg') }}" class="img2">
-                <img src="{{ asset('images/main/index/img2.jpg') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img3.jpg') }}" class="img3">
-                <img src="{{ asset('images/main/index/img3.jpg') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img4.png') }}" class="img4">
-                <img src="{{ asset('images/main/index/img4.png') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img5.png') }}" class="img5">
-                <img src="{{ asset('images/main/index/img5.png') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img6.png') }}" class="img6">
-                <img src="{{ asset('images/main/index/img6.png') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img7.jpeg') }}" class="img7">
-                <img src="{{ asset('images/main/index/img7.jpeg') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img8.jpeg') }}" class="img8">
-                <img src="{{ asset('images/main/index/img8.jpeg') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img9.jpeg') }}" class="img9">
-                <img src="{{ asset('images/main/index/img9.jpeg') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img10.png') }}" class="img10">
-                <img src="{{ asset('images/main/index/img10.png') }}" alt="">
-            </a>
-            <a href="{{ asset('images/main/index/img11.png') }}" class="img11">
-                <img src="{{ asset('images/main/index/img11.png') }}" alt="">
-            </a>
+            @endforeach
         </div>
     </section>
     <section class="contact">

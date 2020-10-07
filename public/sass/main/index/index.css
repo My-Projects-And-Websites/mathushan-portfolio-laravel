@@ -76,6 +76,7 @@ section.gallery .gallery-img a {
   text-decoration: none;
   -webkit-transition: .4s;
   transition: .4s;
+  position: relative;
 }
 
 section.gallery .gallery-img a img {
@@ -85,8 +86,41 @@ section.gallery .gallery-img a img {
      object-fit: cover;
 }
 
-section.gallery .gallery-img a:hover {
-  opacity: 0.5;
+section.gallery .gallery-img a span {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 36px;
+  width: 80%;
+  text-align: center;
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+}
+
+section.gallery .gallery-img a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+section.gallery .gallery-img a:hover span {
+  opacity: 1;
+  z-index: 1;
+}
+
+section.gallery .gallery-img a:hover::after {
+  opacity: 0.7;
 }
 
 section.gallery .gallery-img .img1 {
