@@ -51,15 +51,25 @@
             <a href="{{ asset('images/main/index/img9.jpeg') }}" class="img9">
                 <img src="{{ asset('images/main/index/img9.jpeg') }}" alt="">
             </a>
-            <a href="{{ asset('images/main/index/img10.jpeg') }}" class="img10">
-                <img src="{{ asset('images/main/index/img10.jpeg') }}" alt="">
+            <a href="{{ asset('images/main/index/img10.png') }}" class="img10">
+                <img src="{{ asset('images/main/index/img10.png') }}" alt="">
             </a>
             <a href="{{ asset('images/main/index/img11.png') }}" class="img11">
                 <img src="{{ asset('images/main/index/img11.png') }}" alt="">
             </a>
-            <a href="{{ asset('images/main/index/img12.png') }}" class="img12">
-                <img src="{{ asset('images/main/index/img12.png') }}" alt="">
-            </a>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-text">
+            <h2>Get in Touch</h2>
+            <p>
+                Need something that I could be of help with?
+                Send me questions, details or feedbacks and I'll
+                respond to you as soon as I can.
+            </p>
+        </div>
+        <div class="contact-link">
+            <a href="{{ URL::to('/contact') }}">Contact</a>
         </div>
     </section>
 @endsection

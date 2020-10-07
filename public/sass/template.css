@@ -109,10 +109,6 @@ header .header-nav nav .social-links a .social-link-direct ion-icon {
   font-size: 18px;
 }
 
-header .header-nav nav .social-links a:last-child {
-  width: 20px;
-}
-
 header .header-nav nav .social-links a:hover {
   opacity: 0.75;
 }
