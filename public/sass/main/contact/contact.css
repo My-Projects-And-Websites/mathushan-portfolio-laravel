@@ -1,0 +1,86 @@
+section {
+  margin: 100px auto;
+  width: 90%;
+}
+
+section.contact-intro {
+  text-align: center;
+}
+
+section.contact-intro h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+section.contact-intro p {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+section.contact-form {
+  text-align: center;
+}
+
+section.contact-form form {
+  margin: 0 auto;
+  width: 40%;
+}
+
+section.contact-form form div[class^="form"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 25px;
+}
+
+section.contact-form form div[class^="form"] label, section.contact-form form div[class^="form"] input, section.contact-form form div[class^="form"] textarea {
+  color: #fff;
+  font-size: 16px;
+}
+
+section.contact-form form div[class^="form"] label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+section.contact-form form div[class^="form"] input[type="text"] {
+  background: none;
+  border: 1px solid #fff;
+  padding: 10px;
+  position: relative;
+}
+
+section.contact-form form div[class^="form"] textarea {
+  resize: none;
+  height: 250px;
+  background: none;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+section.contact-form form div[class^="form"] input[type="submit"] {
+  background: none;
+  padding: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+section.contact-form form div[class^="form"] input[type="submit"]:hover {
+  background: #fff;
+  color: #000;
+}
+
+section.contact-form form div[class^="form"]:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=contact.css.map */

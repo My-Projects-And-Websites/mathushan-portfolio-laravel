@@ -23,3 +23,5 @@ Route::get('/pg', 'App\Http\Controllers\PagesController@pg');
 Route::get('/instagram', 'App\Http\Controllers\SocialPlatsController@instagram');
 Route::get('/linkedin', 'App\Http\Controllers\SocialPlatsController@linkedin');
 Route::get('/twitter', 'App\Http\Controllers\SocialPlatsController@twitter');
+
+Route::post('/message', 'App\Http\Controllers\UserMessagesController@store');
