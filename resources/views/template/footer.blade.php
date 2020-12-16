@@ -7,7 +7,7 @@
                         <h3>About</h3>
                         <div class="link-pages">
                             <a href="#">Background</a>
-                            <a href="#">Education</a>
+                            <a href="#">Profession</a>
                         </div>
                     </li>
                     <li>
