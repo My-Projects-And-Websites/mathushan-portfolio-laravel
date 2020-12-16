@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'App\Http\Controllers\PagesController@index');
 Route::get('/services', 'App\Http\Controllers\PagesController@services');
 Route::get('/about', 'App\Http\Controllers\PagesController@about');
-Route::get('/cv', 'App\Http\Controllers\PagesController@cv');
 Route::get('/contact', 'App\Http\Controllers\PagesController@contact');
 Route::get('/pg', 'App\Http\Controllers\PagesController@pg');
 

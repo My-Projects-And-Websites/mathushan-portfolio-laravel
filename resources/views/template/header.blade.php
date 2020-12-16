@@ -11,7 +11,6 @@
                     <li><a href="{{ URL::to('/') }}">Home</a></li>
                     <li><a href="{{ URL::to('/about') }}">About</a></li>
                     <li><a href="{{ URL::to('/services') }}">Services</a></li>
-                    <li><a href="{{ URL::to('/cv') }}">CV</a></li>
                     <li><a href="{{ URL::to('/contact') }}">Contact</a></li>
                     <li><a href="{{ URL::to('/pg') }}">Paperless Games</a></li>
                 </ul>

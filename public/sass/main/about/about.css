@@ -1,0 +1,81 @@
+main {
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 75px auto;
+  width: 90%;
+}
+
+main .timeline-base {
+  position: relative;
+}
+
+main .timeline-base .timeline-container {
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 150px;
+}
+
+main .timeline-base .timeline-container section.timeline-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .timeline-base .timeline-container .row-1-intro .intro-img {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+main .timeline-base .timeline-container .row-1-intro .intro-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .timeline-base .timeline-container .row-1-intro .intro-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 50px;
+  border: 1px solid #fff;
+}
+
+main .timeline-base .timeline-container .row-1-intro .intro-text h2 {
+  color: #fff;
+  font-size: 46px;
+  margin-bottom: 5px;
+}
+
+main .timeline-base .timeline-container .row-1-intro .intro-text p {
+  color: #dcdcdc;
+  line-height: 2;
+}
+
+main .timeline-base .timeline-container::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: -110px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+main .timeline-base::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #202020;
+}
+/*# sourceMappingURL=about.css.map */

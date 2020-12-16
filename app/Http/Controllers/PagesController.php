@@ -21,10 +21,6 @@ class PagesController extends Controller
         return view('main.about');
     }
 
-    public function cv() {
-        return view('main.cv');
-    }
-
     public function contact() {
         return view('main.contact');
     }

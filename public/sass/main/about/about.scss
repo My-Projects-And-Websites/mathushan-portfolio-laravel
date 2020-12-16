@@ -1,0 +1,72 @@
+main {
+    position: relative;
+    height: fit-content;
+    margin: 75px auto;
+    width: 90%;
+
+    .timeline-base {
+        position: relative;
+        
+        .timeline-container {
+            position: relative;
+            margin-left: 100px;
+            margin-bottom: 150px;
+
+            section.timeline-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .row-1-intro {
+
+                .intro-img {
+                    flex-basis: 45%;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .intro-text {
+                    flex-basis: 50%;
+                    padding: 50px;
+                    border: 1px solid #fff;
+
+                    h2 {
+                        color: #fff;
+                        font-size: 46px;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        color: #dcdcdc;
+                        line-height: 2;
+                    }
+                }
+            }
+        }
+
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            top: 0;
+            left: -110px;
+            background: #fff;
+            border-radius: 50%;
+        }
+    }
+
+    .timeline-base::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #202020;
+    }
+}

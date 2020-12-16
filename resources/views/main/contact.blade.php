@@ -5,11 +5,10 @@
 @section('content')
     <section class="contact-intro" data-aos="fade-up" data-aos-duration="1500">
         <h1>Get in Touch</h1>
-        <p>Send me a message. Or details for a project.</p>
+        <!-- <p>Send me a message. Or details for a project.</p> -->
     </section>
     <section class="contact-form"data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
         <form action="{{ URL::to('/message') }}" method="POST" class="form-submit-query">
-            @csrf
             <div class="form-name">
                 <label for="userName">Name:</label>
                 <input type="text" placeholder="" name="userName">
@@ -25,6 +24,7 @@
             <div class="form-submit">
                 <input type="submit" value="Submit">
             </div>
+            @csrf
         </form>
     </section>
 @endsection
